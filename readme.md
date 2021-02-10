@@ -1,17 +1,19 @@
 # Instructions
 Install python 3.7.7
 
-- Create a virtual environment - A new folder will be created called env if you're successful
+Create a virtual environment 
 py -m venv env
+- note: A new folder will be created called env if you're successful.
 
-- Activate your python environment - you will see (env) on your cli if you're successful
+Activate your python environment
 env\Scripts\activate
+- note: you will see (env) on your cli if you're successful
 
-- Install Dependencies - if you use more, store them here
+Install Dependencies 
 (env) python -m pip install -r requirements.txt
+- Note: if you use more, store them here. get a list by type python -m pip freeze
 
-Create a postgresql database
-Create 2 tables, osrs and Activity
+Create a postgresql database and Create 2 tables, osrs and Activity
 
 In osrs, create these columns:
 id (serial), email (varchar 255), password (varchar 255), avilable (boolean), proxy (varchar 255), character (varchar)
