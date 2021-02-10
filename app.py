@@ -26,7 +26,7 @@ command_line_config = {
 
 try:
 
-    #  Change this to whatever you need to execute
+    #  Change this to whatever you need to execute, In my case I'm using OSBot
     os.system("java -jar {} -login {}:{} -debug 5005 -proxy {} -bot {}:{}:0000 -script {}".format(
         path_to_executable, 
         command_line_config['login'], 
